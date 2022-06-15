@@ -10,7 +10,7 @@ document.getElementById("footer").innerHTML = footer()
 
 
 
-let url ="http://localhost:3000/homepage"
+let url ="https://shopbop-backend.herokuapp.com/api/homepage"
 
 fetch(url)
 
@@ -49,9 +49,10 @@ data.forEach(function(el,index){
     let price = document.createElement("p")
     price.innerHTML = `Rs : ${el.price}`
     
+    let rating = document.createElement("h5")
+    rating.innerText =`Rating : ${el.rating}`
     
-    
-    div.append(image,title,desc,price)
+    div.append(image,title,desc,price,rating)
     document.getElementById("hcontainer").append(div)
         
 })

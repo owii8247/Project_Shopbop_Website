@@ -12,6 +12,8 @@ document.getElementById("footer").innerHTML = footer()
 
 
 let cartData = JSON.parse(localStorage.getItem("cartcount"))
+let x = cartData.length
+document.getElementById("count").innerText = `${x}`
 
 cartData.map(function(el,index){
     let div = document.createElement("div")
@@ -28,6 +30,9 @@ cartData.map(function(el,index){
 
     let price = document.createElement("p")
     price.innerHTML = `Rs : ${el.price}`
+
+    let rating = document.createElement("h5")
+    rating.innerText =`Rating : ${el.rating}`
 
     let btn = document.createElement("div")
     btn.setAttribute("id","button")
@@ -50,7 +55,7 @@ cartData.map(function(el,index){
 
 
     
-    divtitle.append(title,price)
+    divtitle.append(title,price,rating)
     document.getElementById("title").append(divtitle)
     div.append(image)
     document.getElementById("imagebox").append(div)
@@ -60,18 +65,20 @@ cartData.map(function(el,index){
 
 
 })
-function addtocart(el){
-    let arr = []
-    arr.push(el)
-    localStorage.setItem("cartcount", JSON.stringify(arr))
+function addtocart(el,index){
+    cartData.push(el,index)
+    // localStorage.setItem("cartcount", JSON.stringify(cartData))
     window.location.href ="./cart.html"
-    // window.location.reload()
+  
+    alert("Item Added To Cart !");
 }
 
-function addtowishlist(el){
-    let arr = []
-    arr.push(el)
-    localStorage.setItem("cartcount", JSON.stringify(arr))
+localStorage.setItem("cartcount", JSON.stringify(cartData))
+
+function addtowishlist(el,index){
+    let arr = JSON.parse(localStorage.getItem("wishlist" )) || []
+    arr.push(el,index)
+    localStorage.setItem("wishlist", JSON.stringify(arr))
     window.location.href ="./wishlist.html"
     // window.location.reload()
 }

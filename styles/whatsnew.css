@@ -43,6 +43,7 @@ img{
     width: 20%;
     padding: 50px;
 
+
 }
 #sidebarcss{
     width: 200%;
@@ -50,11 +51,13 @@ img{
     border: 0px;
     font-weight: bold;
     font-size: large;
+    
 }
 option{
     border: 0px;
     outline: 0px;
     overflow: hidden;
+    font-size: small;
 }
 #apply{
     margin-top: 10px;

@@ -5,7 +5,7 @@ document.getElementById("topnav").innerHTML = topnav()
 import footer from "../components/footer.js"
 document.getElementById("footer").innerHTML = footer()
 
-let url ="http://localhost:3000/homepage"
+let url ="https://shopbop-backend.herokuapp.com/api/homepage"
 
 fetch(url)
 
@@ -28,27 +28,35 @@ fetch(url)
     console.log("err:",err)
 })
 
-// function sortingData(){
-//     let sorts = document.getElementById("sort").value;
-//     console.log(sorts)
+function sortingData(){
+    let sorts = document.getElementById("sort").value;
+    console.log(sorts)
 
-//     if(sorts=="htl")
-//     {
-//         res.sort(function(a,b){
-//             return b.price-a.price;
-//         })
+    if(sorts=="htl")
+    {
+        res.sort(function(a,b){
+            return b.price - a.price;
+        })
         
-//         append(res[4])
-//     }
-//     if(sorts=="lth")
-//     {
-//         res.sort(function(a,b){
-//             return a.price-b.price;
-//         })
-//         append(res[4])
-//     }
-// }
-// sortingData()
+        append(data)
+    }
+    else if(sorts=="lth")
+    {
+        res.sort(function(a,b){
+            return a.price - b.price;
+        })
+        append(data)
+    }
+    else if(sorts=="rating")
+    {
+        res.sort(function(a,b){
+            return b.rating - a.rating;
+        })
+        
+        append(data)
+    }
+}
+sortingData()
 
 let arr = JSON.parse(localStorage.getItem("cartcount")) || []
 let x = arr.length
