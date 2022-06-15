@@ -1,0 +1,68 @@
+#whatsnew{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: repeat(1,fr); */
+    grid-gap: 10px;
+    margin-left: 10%;
+    padding: 20px;
+
+}
+#box{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+
+}
+img{
+    width: 100%;
+    height: 350px;
+}
+
+#result{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+#sort{
+    width: 180%;
+    margin-left: -50px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+/* Sidebar */
+#alldata{
+    display: flex;
+}
+#sidebar{
+    width: 20%;
+    padding: 50px;
+
+}
+#sidebarcss{
+    width: 200%;
+    padding: 10px;
+    border: 0px;
+    font-weight: bold;
+    font-size: large;
+}
+option{
+    border: 0px;
+    outline: 0px;
+    overflow: hidden;
+}
+#apply{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: tomato;
+    border: none;
+}
+

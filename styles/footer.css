@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+.footer-col ul li a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 400px;
+
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: black;
+    font-weight: bold;
+    padding-left: 8px;
+
+}
+
+.container {
+    width: 100%;
+}
+
+s .container {
+    max-width: 100%;
+
+    margin: auto;
+    height: 50px;
+}
+
+.row {
+    display: flex;
+    margin: 40px 105px 60px;
+    /* width: 100%; */
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: white;
+    padding: 1px 15px;
+    display: flex;
+}
+
+.footer-col {
+    width: 10%;
+    padding: 0 15px;
+}
+
+.footer-col h5 {
+    font-size: 13px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-col h5::before {
+
+
+    background-color: white;
+    height: 3px;
+
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 20px;
+
+
+}
+
+.lower-footer {
+
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 14px 10px 0px;
+    box-sizing: border-box;
+}
+
+.left-block {
+
+    height: 70px;
+    width: 44%;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
+
+
+}
+
+.left-block p {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.right-block {
+
+    height: 70px;
+    width: 30%;
+
+    color: #FFFFFF;
+    font-size: 12px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+
+
+
+}
+
+.right-block p {
+    display: flex;
+    text-decoration: underline;
+    font-weight: bold;
+    gap: 10px;
+    align-items: center;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+p {
+    color: black;
+}

@@ -1,0 +1,645 @@
+{
+  "homepage": [
+    {
+      "whatsnew": [
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/heman/heman302411071b/heman302411071b_1654807255575_2-0._QL90_UX282_.jpg",
+          "title": "Hemant and Nandita",
+          "description": "Short Gauze Dress",
+          "price": "399.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "7"
+        },
+
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cultg/cultg3072611524/cultg3072611524_1654803329603_2-0._QL90_UX282_.jpg",
+          "title": "Cult Gaia",
+          "description": "Vita Sandals",
+          "price": "428.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062788757/imara3062788757_1654807693663_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Ilayona Blouse",
+          "price": "295.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062888757/imara3062888757_1654807702192_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Naomi Skirt",
+          "price": "310.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3070910bee/efact3070910bee_1654808226736_2-0._QL90_UX282_.jpg",
+          "title": "English Factory",
+          "description": "Elastic Detail Sleeveless Dress",
+          "price": "90.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tachc/tachc3003211365/tachc3003211365_1651246386943_2-0._QL90_UX282_.jpg",
+          "title": "Tach Clothing",
+          "description": "Maribel Dress",
+          "price": "205.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "3"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agsan/agsan304671071b/agsan304671071b_1654797215576_2-0._QL90_UX282_.jpg",
+          "title": "Ancient Greek Sandals",
+          "description": "Demijohn Clutch",
+          "price": "365.00",
+          "rating": "6"
+        }
+      ]
+    },
+    {
+      "justin": [
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/lvtla/lvtla300461dfc0/lvtla300461dfc0_1654801635500_2-0._QL90_UX282_.jpg",
+          "title": "Love The Label",
+          "description": "Veronica Dress",
+          "price": "345.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ccons/ccons307381dd08/ccons307381dd08_1654794070569_2-0._QL90_UX282_.jpg",
+          "title": "CAROLINE CONSTAS",
+          "description": "Malta Gown",
+          "price": "695.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/alccc/alccc4228615922/alccc4228615922_1650051146789_2-0._QL90_UX282_.jpg",
+          "title": "A.L.C.",
+          "description": "Alex Dress",
+          "price": "495.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/heman/heman302411071b/heman302411071b_1654807255575_2-0._QL90_UX282_.jpg",
+          "title": "Hemant and Nandita",
+          "description": "Short Gauze Dress",
+          "price": "399.00",
+          "rating": "3"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cultg/cultg3072611524/cultg3072611524_1654803329603_2-0._QL90_UX282_.jpg",
+          "title": "Cult Gaia",
+          "description": "Vita Sandals",
+          "price": "428.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062788757/imara3062788757_1654807693663_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Ilayona Blouse",
+          "price": "295.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062888757/imara3062888757_1654807702192_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Naomi Skirt",
+          "price": "310.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3070910bee/efact3070910bee_1654808226736_2-0._QL90_UX282_.jpg",
+          "title": "English Factory",
+          "description": "Elastic Detail Sleeveless Dress",
+          "price": "90.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tachc/tachc3003211365/tachc3003211365_1651246386943_2-0._QL90_UX282_.jpg",
+          "title": "Tach Clothing",
+          "description": "Maribel Dress",
+          "price": "205.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/vbeac/vbeac302661a538/vbeac302661a538_q1_2-0._QL90_UX282_.jpg",
+          "title": "Veronica Beard Jean",
+          "description": "Tazi Tee",
+          "price": "138.00",
+          "rating": "2"
+        }
+      ]
+    },
+    {
+      "dontmiss": [
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3065812965/agole3065812965_1652459698511_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "High Rise Baggy Taper Jeans",
+          "price": "198.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/treto/treto204671c925/treto204671c925_1652736056449_2-0._QL90_UX282_.jpg",
+          "title": "Tretorn",
+          "description": "Nylite Plus Espadrilles",
+          "price": "85.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cultg/cultg3072611524/cultg3072611524_1654803329603_2-0._QL90_UX282_.jpg",
+          "title": "Cult Gaia",
+          "description": "Vita Sandals",
+          "price": "428.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062788757/imara3062788757_1654807693663_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Ilayona Blouse",
+          "price": "295.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/lshac/lshac3102117107/lshac3102117107_1653594714517_2-0._QL90_UX282_.jpg",
+          "title": "LoveShackFancy",
+          "description": "Natasha Dress",
+          "price": "295.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "3"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3070910bee/efact3070910bee_1654808226736_2-0._QL90_UX282_.jpg",
+          "title": "English Factory",
+          "description": "Elastic Detail Sleeveless Dress",
+          "price": "90.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tachc/tachc3003211365/tachc3003211365_1651246386943_2-0._QL90_UX282_.jpg",
+          "title": "Tach Clothing",
+          "description": "Maribel Dress",
+          "price": "205.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "8"
+        }
+      ]
+    },
+    {
+      "popular": [
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/madew/madew4513611160/madew4513611160_q1_2-0._QL90_UX282_.jpg",
+          "title": "Madewell",
+          "description": "Whisper Cotton V Neck Tank",
+          "price": "18.50",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/nwbal/nwbal3061511745/nwbal3061511745_1654635432212_2-0._QL90_UX282_.jpg",
+          "title": "New Balance",
+          "description": "300 Series Sneakers",
+          "price": "75.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/opttt/opttt3012812194/opttt3012812194_1650389877222_2-0._QL90_UX282_.jpg",
+          "title": "o.p.t",
+          "description": "Calypso Dress",
+          "price": "160.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3070910bee/efact3070910bee_1654808226736_2-0._QL90_UX282_.jpg",
+          "title": "English Factory",
+          "description": "Elastic Detail Sleeveless Dress",
+          "price": "90.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tachc/tachc3003211365/tachc3003211365_1651246386943_2-0._QL90_UX282_.jpg",
+          "title": "Tach Clothing",
+          "description": "Maribel Dress",
+          "price": "205.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "3"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "3"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3070910bee/efact3070910bee_1654808226736_2-0._QL90_UX282_.jpg",
+          "title": "English Factory",
+          "description": "Elastic Detail Sleeveless Dress",
+          "price": "90.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tachc/tachc3003211365/tachc3003211365_1651246386943_2-0._QL90_UX282_.jpg",
+          "title": "Tach Clothing",
+          "description": "Maribel Dress",
+          "price": "205.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "$138.00"
+        },
+
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "6"
+        }
+      ]
+    },
+    {
+      "whatsnewpage": [
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878521553_2-0._QL90_UX282_.jpg",
+          "title": "Trumpeted Mini Dress",
+          "price": "895.00",
+          "rating": "2"
+          
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/staud/staud3120510d92/staud3120510d92_1654800088511_2-0._QL90_UX282_.jpg",
+        "title": "Mina Shoulder Bag",
+        "price": "350.00",
+        "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3060613219/agole3060613219_1651862393635_2-0._QL90_UX282_.jpg",
+        "title": "Ira Short: Mid Rise Loose Jean Shorts",
+        "price": "148.00",
+        "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/leviv/leviv208691c307/leviv208691c307_1628703128545_2-0._QL90_UX282_.jpg",
+        "title": "Ribcage Straight Ankle Jeans",
+        "price": "108.00",
+        "rating": "6"
+
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/ismdb/ismdb3107310f7e/ismdb3107310f7e_1654883045139_2-0._QL90_UX282_.jpg",
+        "title": "Chain Bracelet",
+        "price": "105.00",
+        "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cultg/cultg307191c8e8/cultg307191c8e8_1654801308997_2-0._QL90_UX282_.jpg",
+        "title": "Enid Platform Sandals",
+        "price": "448.00",
+        "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/msoma/msoma3008211739/msoma3008211739_1655138421844_2-0._QL90_UX282_.jpg",
+        "title": "Pearl Hoop Earrings",
+        "price": "201.00",
+        "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001010366/sehud3001010366_1655153883145_2-0._QL90_UX282_.jpg",
+        "title": "Cropped Bolero Jacket",
+        "price": "1,695.00",
+        "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/staud/staud3120510d92/staud3120510d92_1654800088511_2-0._QL90_UX282_.jpg",
+          "title": "Mina Shoulder Bag",
+          "price": "350.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/gamer/gamer30441139b8/gamer30441139b8_1654889377733_2-0._QL90_UX282_.jpg",
+          "title": "Terry Kickstand Mules",
+          "price": "169.00",
+          "rating": "4"
+
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/heman/heman302411071b/heman302411071b_1654807255575_2-0._QL90_UX282_.jpg",
+          "title": "Hemant and Nandita",
+          "description": "Short Gauze Dress",
+          "price": "399.00",
+          "rating": "7"
+          
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/cultg/cultg3072611524/cultg3072611524_1654803329603_2-0._QL90_UX282_.jpg",
+          "title": "Cult Gaia",
+          "description": "Vita Sandals",
+          "price": "428.00",
+          "rating": "9"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062788757/imara3062788757_1654807693663_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Ilayona Blouse",
+          "price": "295.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/imara/imara3062888757/imara3062888757_1654807702192_2-0._QL90_UX282_.jpg",
+          "title": "Isabel Marant Étoile",
+          "description": "Naomi Skirt",
+          "price": "310.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "7"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "8"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/efact/efact3070910bee/efact3070910bee_1654808226736_2-0._QL90_UX282_.jpg",
+          "title": "English Factory",
+          "description": "Elastic Detail Sleeveless Dress",
+          "price": "90.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/tachc/tachc3003211365/tachc3003211365_1651246386943_2-0._QL90_UX282_.jpg",
+          "title": "Tach Clothing",
+          "description": "Maribel Dress",
+          "price": "205.00",
+          "rating": "6"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/chlsn/chlsn401181b246/chlsn401181b246_1646783554524_2-0._QL90_UX282_.jpg",
+          "title": "Chloe",
+          "description": "Zelie Sunglasses",
+          "price": "315.00",
+          "rating": "4"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/agole/agole3049067425/agole3049067425_q1_2-1._QL90_UX282_.jpg",
+          "title": "AGOLDE",
+          "description": "Parker Long Loose Vintage Shorts",
+          "price": "138.00",
+          "rating": "5"
+        },
+        {
+          "image": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/freep/freep4507012397/freep4507012397_q1_2-0._QL90_UX282_.jpg",
+          "title": "Free People",
+          "description": "U Neck Tank",
+          "price": "20.00",
+          "rating": "8"
+        }
+        
+
+    
+
+      ]},
+      {
+        "detailimage": [
+          {
+            "url1": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878521553_2-0._UX357_QL90_.jpg"
+          },
+          {
+            "url2": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878521443_2-0._UX357_QL90_.jpg"
+          },
+          {
+            "url3": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878521346_2-0._UX357_QL90_.jpg"
+          },
+          {
+            "url4": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878521419_2-0._UX357_QL90_.jpg"
+          },
+          {
+            "url5": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878522266_2-0._UX357_QL90_.jpg"
+          },
+          {
+            "url6": "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/sehud/sehud3001210366/sehud3001210366_1654878521391_2-0._UX357_QL90_.jpg"
+          }
+          ]}
+  ]
+}

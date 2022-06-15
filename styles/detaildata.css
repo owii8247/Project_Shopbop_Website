@@ -1,0 +1,82 @@
+#what{
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+#what:hover{
+    text-decoration: underline;
+    
+}
+#imagebox{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 5px;
+    width: 60%;
+    border: 0.5px solid grey;
+    margin-left: 40px;
+    padding: 10px;
+    
+    
+
+}
+#imagebox>img{
+    width: 100%;
+    border-radius: 10px;
+}
+#datadetail{
+    display: flex;
+}
+#details{
+    margin-left: 30px;
+    width: 30%;
+}
+#sizebox{
+    display: flex;
+    gap: 20px;
+}
+#sizebox>div{
+    border: 1px solid gray;
+    padding: 10px;
+    width: 100%;
+}
+#sizebox>div:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+span{
+    font-weight: 600;
+    cursor: pointer;
+}
+#color{
+
+    background-color: #bbb2dd;
+}
+
+
+
+#addtocart{
+    width: 90%;
+    padding: 15px;
+    background-color: #ee4a1b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+#addtocart:hover{
+    background-color: #f7714c;
+}
+#wishlist{
+    width: 90%;
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#wishlist:hover{
+    background-color: rgb(141, 129, 106);
+}
+
+

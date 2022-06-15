@@ -1,0 +1,25 @@
+#photo{
+    width: 100%;
+    position: relative;
+}
+#video{
+    position: absolute;
+    transform: translateY(-150%);
+    /* margin-left: 18%; */
+    
+
+}
+#hcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,fr);
+    grid-gap: 10px;
+
+}
+#h1container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,fr);
+    grid-gap: 10px;
+
+}

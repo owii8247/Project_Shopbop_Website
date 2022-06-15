@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/signup.css">
+    <title>Shopbop.com Registration</title>
+        <link
+        rel="shortcut icon"
+        href="https://s3.amazonaws.com/shopbop-rx-static-content/sb_2017_favicon.ico"/>
+    
+  </head>
+  <body>
+    <div id="Container">
+      <h1 id="heading" class="bold textcenter">shopbop</h1>
+      <div>Create account</div>
+      <form id="SignupForm">
+        <p>Your name</p>
+        <input type="text" id="name" required />
+        <p>Email</p>
+        <input type="text" id="email" required />
+        <p>Password</p>
+        <input
+          type="password"
+          id="pass"
+          min="6"
+          placeholder="At Least 6 characters"
+          required
+        />
+        <div class="top"> <I class="specialChar" >&#105   </I>Passwords must be at least 6 characters.</div>
+        <p>Re-enter Password</p>
+        <input type="text" id="Repass" min="6" required />
+        <br />
+        <input type="submit" value="Create Account" id="btn" />
+      </form>
+      <p class="extrasmall extrasmallp">
+        By creating an account, you agree to our <span> Privacy Notice </span> and <span> Conditions of Use. </span>
+      </p>
+      <p class="textcenter header__center">Other register options</p>
+      <p class="imgbox">
+        <img
+          src="https://images-na.ssl-images-amazon.com/images/G/01/Shopbop/media/images/authportal/lwa_209x48._CB485945402_.png"
+          alt=""
+        />
+      </p>
+      <hr class="hrwidth">
+      <p class="extrasmall textcenter">Already have an account? <span>Sign In</span></p>
+    </div>
+    <hr class="hrwidth">
+    <p class="textcenter extrasmallp adcolors">Contact Us</p>
+    <div class="extrasmall extrasmalldiv">
+      © 1999-2020 BOP LLC. All Rights Reserved.
+      <span> Privacy Notice Conditions of Use </span>
+  </div>
+  </body>
+</html>
+<script src="./scripts/signup.js"></script>
