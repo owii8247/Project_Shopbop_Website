@@ -1,41 +1,41 @@
 
-document.getElementById("loginform").addEventListener("submit", UserLogin);
+let login=async()=>{
+  let user_data={
+      username:document.getElementById("username").value,
+      password:document.getElementById("password").value,
+   }
+   user_data=JSON.stringify(user_data)
+   let res=await fetch("https://masai-api-mocker.herokuapp.com/auth/login",{
+       method:"POST",
+       body:user_data,
+       headers:{
+           "Content-Type":"application/json",
+       },
+   });
 
-function UserLogin(event) {
-  event.preventDefault();
-  console.log("here")
-  var signedupUsers = JSON.parse(localStorage.getItem("UsersObj"));
-  var Email = document.querySelector("#CheckEmail").value;
-  var pass = document.querySelector("#pass").value;
-
-  var flag = false;
-  var IsuserLoggedin = false;
-  var LoggedUser = JSON.parse(localStorage.getItem("LoggedUser")) || [];
-  for (var i = 0; i < signedupUsers.length; i++) {
-    if (signedupUsers[i].UserEmail === Email) {
-      if (signedupUsers[i].UserPass === pass) {
-        alert(signedupUsers[i].UserName + " " + "Logged in Successfully");
-        window.location.href = "index.html";
-        
-        LoggedUser.push(signedupUsers[i]);
-        localStorage.setItem("LoggedUSer", JSON.stringify(LoggedUser));
-        flag = true;
-        IsuserLoggedin = true;
-        document.querySelector("#email").value = null;
-        document.querySelector("#pass").value = null;
-      } else if (signedupUsers[i].UserPass !== pass) {
-        alert("Enter Valid Password !");
-        flag = true;
-      }
-    }
+   let data= await res.json();
+   let username=document.getElementById("username").value
+   getUserDetail(username,data.token);
+   console.log(data)
+   if(data.error==true){
+      alert("Wrong Credentials !! Check Your Details")
   }
-  if (!flag) {
-    alert("Enter Valid Email Address");
+  else{
+      alert("Congrats" + " " + username + " " + "Account Loged In Successfully")
+      window.location.href="index.html"
   }
-}
+};
 
-document.querySelector("#create").addEventListener("click", Gotosigin);
+document.getElementById("submit").addEventListener("click",login)
 
-function Gotosigin(){
-  window.location.href = "Signup.html";
-}
+let getUserDetail=async(username,token)=>{
+  let res=await fetch(`https://masai-api-mocker.herokuapp.com/user/${username}`,{
+   headers:{
+        Authorization: `Bearer ${token}`,
+    },
+  });
+let data=await res.json();   
+console.log("user_data",data) 
+localStorage.setItem("username",JSON.stringify(data))
+
+};

@@ -1,0 +1,75 @@
+#payment{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    
+}
+#paymentdetail{
+    /* border: 2px solid blue; */
+    background-color: #fcf8f8;
+    /* display: flex;
+    justify-content: center; */
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+}
+
+#shipping{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid green; */
+    margin-bottom: 5%;
+}
+
+input{
+    width: 50%;
+    padding: 8px;
+}
+#radiobutton{
+    width: 2%;
+}
+select{
+    padding: 8px;
+}
+#cvv{
+    width: 20%;
+}
+#term{
+    width: 80%;
+
+}
+
+#checkout_section{
+    display: flex;
+    justify-content: end;
+    /* border: 2px solid red; */
+    background-color: #fcf8f8;
+    padding: 15px;
+}
+
+#pcount{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+p{
+    font-size: small; 
+}
+
+
+#submit{
+    padding: 15px;
+    width: 80%;
+    font-weight: bold;
+    background-color: tomato;
+    border: none;
+    cursor: pointer;
+}
+span{
+    font-weight: bold;
+}
+label{
+    font-size: small;
+}

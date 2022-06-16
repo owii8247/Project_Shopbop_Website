@@ -1,27 +1,36 @@
+let register=async (e)=>{
+  e.preventDefault();
 
-document.querySelector("form").addEventListener("submit", SaveUserInfo);
-var UserData = JSON.parse(localStorage.getItem("UsersObj")) || [];
+  let form_data={
+      name:document.getElementById("name").value,
+      email:document.getElementById("email").value,
+      password:document.getElementById("password").value,
+      username:document.getElementById("username").value,
+      mobile:document.getElementById("mobile").value,
+      description:document.getElementById("description").value,
 
-function SaveUserInfo(event) {
-  event.preventDefault();
-
-  var UserName = document.querySelector("#name").value;
-  var UserEmail = document.querySelector("#email").value;
-  var UserPass = document.querySelector("#pass").value;
-
-  var UserDetails = {
-    UserName: UserName,
-    UserEmail: UserEmail,
-    UserPass: UserPass,
   };
+//   console.log(form_data)
+form_data=JSON.stringify(form_data);
 
-  UserData.push(UserDetails);
-  localStorage.setItem("UsersObj", JSON.stringify(UserData));
-  document.querySelector("#name").value = null;
-  document.querySelector("#email").value = null;
-  document.querySelector("#pass").value = null;
-  document.querySelector("#Repass").value = null;
-
-  alert("Congrats" + " " + UserName + " " + "You Account Created Successfully");
-  window.location.href = "Login.html";
+let res= await fetch("https://masai-api-mocker.herokuapp.com/auth/register",{
+    method: "POST",
+    // mode:"no-cors",          
+    body : form_data,
+    headers:{
+        "Content-Type":"application/json",
+    },
+});
+let data=await res.json();
+console.log(data)
+if(data.error===true){
+    alert("User already exist")
+    window.location.reload()
 }
+else{
+    alert("Congrats" + " " + user.name + " " + "Account Created Successfully")
+    window.location.href ="./login.html"
+}
+    
+};
+document.getElementById("submit").addEventListener("click",register)

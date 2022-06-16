@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | SHOPBOP</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://s3.amazonaws.com/shopbop-rx-static-content/sb_2017_favicon.ico" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/payment.css">
+</head>
+
+<body>
+
+    <div id="topnav"></div>
+    <a href="./index.html">
+        <div> <img id="shopbopimg"
+                src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"
+                alt=""></div>
+    </a>
+    <div id="navbar"></div>
+    <div id="offer"><img src="./images/offer.PNG" alt=""></div>
+    <div id="payment">
+        <div id="paymentdetail">
+
+            <div id="shipping">
+                <h5>Shipping Address</h5><br>
+                <form onsubmit="placeorder()">
+                    <label for="">Country</label>
+                    <br>
+                    <select id="country">
+                        <option value="">Select Country</option>
+                        <option value="">India</option>
+                        <option value="">Afghanistan</option>
+                        <option value="">Bangaladesh</option>
+                        <option value="">Canada</option>
+                        <option value="">China</option>
+                        <option value="">Pakistan</option>
+                        <option value="">Zimbabwe</option>
+                    </select><br>
+                    <label for="">Full Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Enter Full Name" />
+                    <br>
+                    <label for="">Address or P.O Box</label>
+                    <br>
+
+                    <input type="text" id="address" placeholder="Enter Address" /><br>
+                    <label for="">ZIP/Postal Code</label>
+                    <br>
+                    <input type="text" id="zip" placeholder="Enter postal code">
+                    <br>
+                    
+                    <label for="">City</label><br>
+                    <input type="text" id="city" placeholder="Enter your city" /><br>
+                    <label for="">State</label><br>
+
+                    <select id="state">
+                        <option value="">Jharkhand</option>
+                        <option value="">Bihar</option>
+                        <option value="">Punjab</option>
+                        <option value="">Delhi</option>
+                        <option value="">West Bengal</option>
+                    </select><br>
+                    <label for="">Phone Number</label><br>
+                    <input type="text" id="mobile" placeholder="Mobile Phone" /><br>
+
+            </div>
+
+            <h5>Add Payment Method</h5><br>
+
+            <p>
+                <input type="radio" id="radiobutton" name="radio-group">
+                <label for="test1">Credit / Debit / Shopbop Card</label><br>
+            </p>
+
+            <div id="cardDetails">
+                <label for="">Card Number</label><br>
+                <input type="number" id="cardNumber" placeholder="Card Number" /><br>
+                <label for="">Expiry Detail</label>
+                <div>
+                    <select id="month">
+                        <option value="1">01 Jan</option>
+                        <option value="2">02 Feb</option>
+                        <option value="3">03 Mar</option>
+                        <option value="4">04 Apr</option>
+                        <option value="5">05 May</option>
+                        <option value="6">06 Jun</option>
+                        <option value="7">07 Jul</option>
+                        <option value="8">08 Aug</option>
+                        <option value="9">09 Sep</option>
+                        <option value="10">10 Oct</option>
+                        <option value="11">11 Nov</option>
+                        <option value="12">12 Dec</option>
+                    </select>
+                    <select id="year">
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                        <option value="2033">2033</option>
+                        <option value="2034">2034</option>
+                        <option value="2035">2035</option>
+                        <option value="2036">2036</option>
+                    </select>
+                    <input type="number" id="cvv" placeholder="CVV" />
+                </div>
+
+
+            </div><br>
+
+            <button type="submit" id="submit">Place Order</button>
+            
+            </form>
+            <p id="term">By placing your order, you agree to Shopbop.com’s privacy notice and condition of use</p>
+
+        </div>
+        <!-- <div id="ordersummary"></div> -->
+        <div id="checkout_section">
+            <div id="totalDiv">
+                <h3>Order Summary</h3>
+                <div id="pcount">
+                    <p>Products<span class="counter"></span> Items:</p>
+                    <p id="total">$0.00</p>
+                </div>
+                <div id="pcount">
+                    <p>Shipping & Handling</p>
+                    <p>Free</p>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+                <div id="pcount">
+                    <p> <span>Subtotal</span> (before taxes) </p>
+                    <p id="finalTotal">$0.00</p>
+                </div>
+                <br>
+
+                <br><br>
+
+                <div><img id="cardpic" src="./images/Cardpic.PNG" alt=""></div>
+
+                <div>Questions?
+                    <span>Contact Customer Service</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+</body>
+
+</html>
+<script src="./scripts/payment.js" type="module"></script>

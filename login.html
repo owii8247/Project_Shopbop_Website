@@ -13,42 +13,28 @@
     
   </head>
   <body>
-    <div id="loginBox">
-      <h1 id="heading" class="bold textcenter"><a href="./index.html"> shopbop</h1></a>
-      <div>Sign ln</div>
-      <form id="loginform">
-        <p>Email</p>
-        <input type="text" id="email" required />
-        <p>
-          Password
-          <span id="divide" class="adcolors">Forgot your password?</span>
-        </p>
-        <input type="password" id="pass" required />
-        <br />
-        <input type="submit" id="login" value="Sign ln" required />
-      </form>
-      <p>
-        <input type="checkbox" />
-        <span id="extrasmall">Keep me signed in.</span>
-        <span class="adcolors" id="extrasmall">Details</span>
-      </p>
-      <p class="textcenter header__center" id="extrasmall">
-        More sign in options
-      </p>
-      <p class="imgbox">
-        <img
-          src="https://images-na.ssl-images-amazon.com/images/G/01/Shopbop/media/images/authportal/lwa_209x48._CB485945402_.png"
-          alt=""
-        />
-      </p>
-      <p class="textcenter header__center" id="extrasmall">New to shopbop?</p>
-      <button id="create">Create your Shopbop account</button>
+    <a href="./index.html"><div> <img id="shopbopimg"
+        
+      src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"
+      alt=""></div></a>
+    <div id="container">
+     
+      <h3>Sign ln</h3> 
+      <div id="form">
+        <label for="">Enter Username</label><br>
+        <input id="username" type="text" placeholder="Username"><br><br>
+        <label for="">Password</label><br>
+       <input  id="password" type="password" placeholder="Password"><br><br><br>
+       <button id="submit">Sign In</button> <br><br>
+       <input type="checkbox" id="checkbox">
+       <label for="" id="keep">Keep me signed in. <a href="#">Details</a>  </label><br><br>
+       <a href="https://www.amazon.in/ap/register?showRememberMe=true&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fyourstore%2Fhome%3Fpath%3D%252Fgp%252Fyourstore%252Fhome%26useRedirectOnSuccess%3D1%26signIn%3D1%26action%3Dsign-out%26ref_%3Dnav_AccountFlyout_signout&prevRID=JVDKF79C1DMCXTVM7T6Y&openid.assoc_handle=inflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&pageId=inflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"><img src="./images/amazonlogin.PNG" alt=""></a>
+        <br><hr>
+        <p id="new">New to Shopbop?</p><br>
+        <a href="./signup.html"><button id="create">Create your Shopbop account</button></a>
+        
+       
     </div>
-    <hr class="hrwidth" />
-    <p class="textcenter extrasmallp adcolors" id="extrasmall">Contact Us</p>
-    <div class="extrasmalldiv extrasmall" id="extrasmall">
-      © 1999-2020 BOP LLC. All Rights Reserved.
-      <span> Privacy Notice Conditions of Use </span>
     </div>
   </body>
 </html>

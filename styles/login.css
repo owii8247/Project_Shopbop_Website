@@ -1,131 +1,74 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-body {
-    background-color: #f6f4f5;
-}
 
-#loginBox {
-    width: 25%;
-    height: 520px;
+
+#shopbopimg {
+    width: 180px;
+    height: 50px;
+    margin-left: 43%;
+    margin-top: 20px;
+    cursor: pointer;
+ }
+
+ #container {
+    width: 30%;
+    padding: 25px;
     margin: auto;
-    border: 1px solid transparent;
-}
+    /* border: 1px solid black; */
 
-#heading {
-    margin-top: 5%;
-
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-.bold {
-    font-weight: bolder;
-}
-
-.textcenter {
-    text-align: center;
-}
-
-#loginBox>div {
-    font-size: x-large;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-#divide {
-    margin-left: 32%;
-}
-
-#loginBox>form>p {
+  }
+  label{
     font-size: small;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 02%;
-}
-
-#login {
-    margin-top: 5%;
-    cursor: pointer;
-    
-    
-}
-#login:hover{
-    background-color: rgb(243, 72, 42);
-}
-
-#loginform>input {
-    width: 90%;
-    padding: 2%;
-    border: 1px solid gray;
-    background-color: white;
-}
-
-#loginform>#login {
-    margin-top: 5%;
-    width: 95%;
-    padding: 3%;
+  }
+  input{
+    width: 92%;
+    padding: 10px;
+  }
+  #submit{
+    width: 97%;
+    padding: 10px;
+    color: white;
     background-color: tomato;
-    color: white;
-}
-
-.adcolors {
-    color: tomato;
-}
-
-#extrasmall {
-    font-size: smaller;
-}
-
-.textcenter {
-    text-align: center;
-}
-
-.extrasmalldiv {
-    text-align: center;
-    font-size: smaller;
-}
-
-.extrasmallp {
-    font-size: smaller;
-}
-
-.extrasmall>span {
-    color: tomato;
-    margin-left: 0.2%;
-}
-
-.header__center {
-    display: grid;
-    grid-template-columns: 1fr max-content 1fr;
-    grid-column-gap: 1rem;
-    align-items: center;
-}
-
-.header__center::before,
-.header__center::after {
-    content: "";
-    display: block;
-    height: 1px;
-    background-color: gray;
-}
-
-#loginBox>.imgbox {
-    margin-left: 20%;
+    font-weight: bold;
     cursor: pointer;
-}
+    border: none;
 
-.hrwidth {
-    width: 50%;
 }
+p{
+    font-size: small;
+  }
 
-#loginBox>button {
-    padding: 2% 22%;
+  #checkbox{
+    margin-left: -40%;
+    gap: 5px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+    
+  img{
+    margin-left: 12%;
+  }
+  #keep{
+    margin-left: -43%;
+    
+  }
+  #keep>a{
+    color: tomato;
+  }
+  #new{
+    text-align: center;
+    color: gray;
+  }
+  #create{
+    width: 97%;
+    padding: 10px;
+    color: white;
     background-color: black;
-    color: white;
+    font-weight: bold;
     cursor: pointer;
+    border: none;
+
 }
+

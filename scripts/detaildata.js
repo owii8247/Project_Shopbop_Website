@@ -11,7 +11,7 @@ document.getElementById("footer").innerHTML = footer()
 
 
 
-let cartData = JSON.parse(localStorage.getItem("cartcount"))
+let cartData = JSON.parse(localStorage.getItem("cartcount")) || []
 let x = cartData.length
 document.getElementById("count").innerText = `${x}`
 
@@ -29,7 +29,7 @@ cartData.map(function(el,index){
     title.innerHTML = el.title
 
     let price = document.createElement("p")
-    price.innerHTML = `Rs : ${el.price}`
+    price.innerHTML = `₹ ${el.price}`
 
     let rating = document.createElement("h5")
     rating.innerText =`Rating : ${el.rating}`
@@ -46,7 +46,7 @@ cartData.map(function(el,index){
 
     let wishlist = document.createElement("button")
     wishlist.innerText = "Add To Wish List"
-    wishlist.setAttribute("id","wishlist")
+    wishlist.setAttribute("id","wishlistbtn")
     wishlist.addEventListener("click",function(el,index){
         addtowishlist(el,index)
     })

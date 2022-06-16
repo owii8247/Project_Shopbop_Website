@@ -16,9 +16,9 @@ fetch(url)
     
     console.log("res:",res)
     append(res[4].whatsnewpage)
-    // append(res[4].whatsnewpage)
-    // append(res[0].whatsnew)
-    // append(res[1].justin)
+    append(res[0].whatsnew)
+    append(res[1].justin)
+    append(res[4].whatsnewpage)
 
     
 
@@ -29,31 +29,31 @@ fetch(url)
 })
 
 function sortingData(){
-    let sorts = document.getElementById("sort").value;
+    let sorts = document.querySelector("#sort").value;
     console.log(sorts)
 
     if(sorts=="htl")
     {
-        res.sort(function(a,b){
+        res[4].whatsnewpage.sort(function(a,b){
             return b.price - a.price;
         })
         
-        append(data)
+        append(res[4].whatsnewpage)
     }
     else if(sorts=="lth")
     {
-        res.sort(function(a,b){
+        res[4].whatsnewpage.sort(function(a,b){
             return a.price - b.price;
         })
-        append(data)
+        append(res[4].whatsnewpage)
     }
     else if(sorts=="rating")
     {
-        res.sort(function(a,b){
+        res[4].whatsnewpage.sort(function(a,b){
             return b.rating - a.rating;
         })
         
-        append(data)
+        append(res[4].whatsnewpage)
     }
 }
 sortingData()
@@ -77,13 +77,19 @@ data.forEach(function(el,index){
 
     let title = document.createElement("p")
     title.innerHTML = el.title
+    title.setAttribute("id","title")
 
     let price = document.createElement("p")
-    price.innerHTML = `Rs : ${el.price}`
+    price.innerHTML = `₹ ${el.price}`
+    price.setAttribute("id","price")
+
+
+    let rating = document.createElement("p")
+    rating.innerText =`Rating : ${el.rating}`
     
     
     
-    div.append(image,title,price)
+    div.append(image,title,price,rating)
     document.getElementById("whatsnew").append(div)
         
 })
@@ -92,7 +98,9 @@ data.forEach(function(el,index){
 function detaildata(el){
     let arr = []
     arr.push(el)
+    console.log(arr)
     localStorage.setItem("cartcount", JSON.stringify(arr))
+   
     window.location.href ="./detaildata.html"
     // window.location.reload()
 }

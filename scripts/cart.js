@@ -10,6 +10,18 @@ let cartProducts = JSON.parse(localStorage.getItem("cartcount")) || []
 let x = cartProducts.length
 document.getElementById("count").innerText = `${x}`
 
+var total = cartProducts.reduce(function(sum,el){
+    return sum + Number(el.price);
+}, 0);
+
+
+console.log(total);
+document.getElementById("finalTotal").innerText = `₹${total}`;
+document.getElementById("total").innerText = `₹${total}`;
+
+
+document.querySelector(".counter").innerText = `(${cartProducts.length})`;
+
 if (cartProducts.length === 0)
 {
     let div = document.createElement("div")
@@ -36,17 +48,17 @@ if (cartProducts.length === 0)
     displayData(cartProducts);
 }
 
-var total = cartProducts.reduce(function(sum,el){
-    return sum + Number(el.price);
-}, 0);
+// var total = cartProducts.reduce(function(sum,el){
+//     return sum + Number(el.price);
+// }, 0);
 
 
-console.log(total);
-// document.getElementById("finalTotal").innerText = `${total}`;
-document.getElementById("total").innerText = `₹${total}`;
+// console.log(total);
+// // document.getElementById("finalTotal").innerText = `${total}`;
+// document.getElementById("total").innerText = `₹${total}`;
 
 
-document.querySelector(".counter").innerText = `(${cartProducts.length})`;
+// document.querySelector(".counter").innerText = `(${cartProducts.length})`;
 
 function displayData(cartProducts){
     cartProducts.map(function(el,index){
@@ -69,13 +81,13 @@ function displayData(cartProducts){
     desc.innerText = `${el.description}`
 
     let price = document.createElement("h5")
-    price.innerText = `Rs : ${el.price}`;
+    price.innerText = `₹ ${el.price}`;
 
-    let rating = document.createElement("h5")
+    let rating = document.createElement("p")
     rating.innerText =`Rating : ${el.rating}`
 
     let remove = document.createElement("button")
-    remove.innerText = "Remove"
+    remove.innerText = "Edit & Remove"
     remove.setAttribute("id","remove")
     remove.addEventListener("click",function(el,index){
         removeProduct(el,index)
@@ -92,7 +104,7 @@ function displayData(cartProducts){
 function removeProduct(el,index){
     cartProducts.splice(index,1)
 
-    // localStorage.setItem("cartcount",JSON.stringify(cartProducts))
+    localStorage.setItem("cartcount",JSON.stringify(cartProducts))
     window.location.reload()
 }
 

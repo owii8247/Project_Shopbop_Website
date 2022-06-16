@@ -26,7 +26,12 @@ img{
     margin: auto;
     cursor: pointer;
 }
-
+#title{
+    font-weight: bold;
+}
+#price{
+    font-weight: bold;
+}
 
 #sort{
     width: 180%;

@@ -1,3 +1,5 @@
+
+
 #what{
     cursor: pointer;
     margin-left: 40px;
@@ -12,9 +14,9 @@
     grid-template-columns: repeat(1,1fr);
     grid-gap: 5px;
     width: 60%;
-    border: 0.5px solid grey;
+    /* border: 0.5px solid grey; */
     margin-left: 40px;
-    padding: 10px;
+    padding: 30px;
     
     
 
@@ -22,6 +24,7 @@
 #imagebox>img{
     width: 100%;
     border-radius: 10px;
+    
 }
 #datadetail{
     display: flex;
@@ -50,7 +53,7 @@ span{
 }
 #color{
 
-    background-color: #bbb2dd;
+    background-color: black;
 }
 
 
@@ -63,19 +66,21 @@ span{
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 50px;
+    border: none;
 }
 #addtocart:hover{
     background-color: #f7714c;
 }
-#wishlist{
+#wishlistbtn{
     width: 90%;
     padding: 15px;
     color: black;
     font-weight: bold;
     cursor: pointer;
+    border: none;
 
 }
-#wishlist:hover{
+#wishlistbtn:hover{
     background-color: rgb(141, 129, 106);
 }
 

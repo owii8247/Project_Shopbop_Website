@@ -10,6 +10,7 @@ function topnav() {
 </div>
 <div id="signup">
     <div class="dropdown">
+    <div id="profile"></div>
         <button class="dropbtn">Sign In / Register</button>
         <div class="dropdown-content">
           <a href="./signup.html">Account</a>
