@@ -9,8 +9,9 @@ function topnav() {
     FREE express international delivery + EASY returns
 </div>
 <div id="signup">
+<div id="profile"></div>
     <div class="dropdown">
-    <div id="profile"></div>
+    
         <button class="dropbtn">Sign In / Register</button>
         <div class="dropdown-content">
           <a href="./signup.html">Account</a>
@@ -43,7 +44,7 @@ function navbar() {
         <div class="header-item item-center">
             <nav class="menu">
                 <ul class="menu-main">
-                    <li class="menu-item"><a href="#">WHAT'S NEW</a>
+                    <li class="menu-item"><a href="./whatsnew.html">WHAT'S NEW</a>
 
                         <div class="sub-menu single-col">
                             <div class="list-item">
@@ -199,6 +200,19 @@ function navbar() {
                                 </ul>
                             </div>
                             <div class="list-item">
+                            <h7 class="title">DISCOVER</h7>
+                            <ul>
+                                <li><a href="#">Most Hearted Styles</a></li>
+                                <li><a href="#">Black Designers & Black-Owned Brands</a></li>
+                                <li><a href="#">Designer Boutique</a></li>
+                                <li><a href="#">Editor's Picks</a></li>
+                                <li><a href="#">Extended Sizes</a></li>
+                                <li><a href="#">Fashion Finds: Under $200</a></li>
+                                <li><a href="#">Top Sellers</a></li>
+
+                            </ul>
+                        </div>
+                            <div class="list-item">
                                 <img src="https://m.media-amazon.com/images/G/01/Shopbop/media/desktop/topnav/2022/2022_06/sb_20220606_desktop_designers_slot1_Tumi.jpg"
                                     alt="F">
 
@@ -235,16 +249,11 @@ function navbar() {
                                     <li><a href="#">Jeans</a></li>
                                     <li><a href="#">Jumpsuits & Rompers</a></li>
                                     <li><a href="#">Lingerie</a></li>
-                                    <li><a href="#">Matching Sets</a></li>
-                                    <li><a href="#">Maternity</a></li>
+                                    
                                     <li><a href="#">Pants</a></li>
                                     <li><a href="#">Shorts</a></li>
                                     <li><a href="#">Skirts</a></li>
-                                    <li><a href="#">Sleepwear</a></li>
-                                    <li><a href="#">Sweaters & Knits</a></li>
-                                    <li><a href="#">Swimsuits & Cover-Ups</a></li>
-                                    <li><a href="#">Tops</a></li>
-                                    <li><a href="#">All Clothing</a></li>
+                                    
 
                                 </ul>
                             </div>
@@ -464,10 +473,7 @@ function navbar() {
                                     <li><a href="#">Clutches</a></li>
                                     <li><a href="#">Cross Body Bags</a></li>
                                     <li><a href="#">Luggage & Weekenders</a></li>
-                                    <li><a href="#">Mini Bags</a></li>
-                                    <li><a href="#">Satchels & Top Handles</a></li>
-                                    <li><a href="#">Shoulder Bags</a></li>
-                                    <li><a href="#">Totes</a></li>
+                                    
                                     <li><a href="#">Wallets & Card Holders</a></li>
                                     <li><a href="#">Bag Accessories & Pouches</a></li>
                                     <li><a href="#">All Bags</a></li>
@@ -543,9 +549,7 @@ function navbar() {
                                     <li><a href="#">Gloves</a></li>
                                     <li><a href="#">Hair Accessories</a></li>
                                     <li><a href="#">Hats</a></li>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Scarves & Wraps</a></li>
-                                    <li><a href="#">Socks & Tighs</a></li>
+                                    
                                     <li><a href="#">Sunglasses & Eyewear</a></li>
                                     <li><a href="#">Travel Accessories</a></li>
                                     <li><a href="#">All Jewelry & Accessories</a></li>

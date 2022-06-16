@@ -73,4 +73,8 @@ option{
     background-color: tomato;
     border: none;
 }
+#filter{
+    width: 200%;
+    height: 500px;
+}
 

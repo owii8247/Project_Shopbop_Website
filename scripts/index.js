@@ -98,12 +98,14 @@ function append1(data) {
 
 let user = JSON.parse(localStorage.getItem("username"))
 
-if (user == undefined) {
-    document.getElementsById("profile").innerHTML = null
+console.log(user.name)
+
+if (user.name == undefined) {
+    document.getElementsById("profile").innerText = null
 
 
 }
 else {
-    document.getElementsById("profile").innerHTML = `Welcome ${user.name}`
+    document.getElementsById("profile").innerText = `${user.name}`
 
 }

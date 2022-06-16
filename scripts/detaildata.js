@@ -59,21 +59,28 @@ cartData.map(function(el,index){
     document.getElementById("title").append(divtitle)
     div.append(image)
     document.getElementById("imagebox").append(div)
+    
+    
     btn.append(add,wishlist)
     document.getElementById("btn").append(btn)
 
 
 
 })
+
+
+
 function addtocart(el,index){
     cartData.push(el,index)
-    // localStorage.setItem("cartcount", JSON.stringify(cartData))
+    
     window.location.href ="./cart.html"
   
     alert("Item Added To Cart !");
 }
 
-localStorage.setItem("cartcount", JSON.stringify(cartData))
+localStorage.setItem("cartcount", JSON.stringify(cartData)) || []
+
+
 
 function addtowishlist(el,index){
     let arr = JSON.parse(localStorage.getItem("wishlist" )) || []

@@ -66,7 +66,7 @@ a #cart{
 
 
 .dropdown-content a:hover {
-   background-color: #ddd;
+   background-color:black;
    transition: all 0.3s ease;
    text-transform: capitalize;
    text-decoration: none;
@@ -90,6 +90,7 @@ a #cart{
    margin-top: 20px;
    cursor: pointer;
 }
+
 
 /* Navbar */
 
@@ -182,41 +183,6 @@ i:hover {
 
 
 
-
-
-.dropdown_menu {
-   opacity: 0;
-   visibility: hidden;
-}
-
-.dropdown_menu ul {
-   opacity: 0;
-   visibility: hidden;
-}
-
-.dropdown_menu ul li {
-   opacity: 0;
-   visibility: hidden;
-}
-
-
-
-.dropdown_list {
-   opacity: 0;
-   visibility: hidden;
-}
-
-.dropdown_list ul {
-   opacity: 0;
-   visibility: hidden;
-}
-
-.dropdown_list ul li {
-   opacity: 0;
-   visibility: hidden;
-}
-
-
 /* <--------BootStrap--------> */
 
 .Container {
@@ -267,7 +233,7 @@ ul {
 
 .header .menu>ul>li>a {
    font-size: small;
-   font-weight: bold;
+   /* font-weight: bold; */
    color: black;
    position: relative;
    font-family: "poppins";
@@ -280,7 +246,8 @@ ul {
 }
 
 .header .menu>ul>li:hover>a {
-   color: #ea4636;
+   color: black;
+   text-decoration: underline;
 }
 
 .header .menu>ul>li .sub-menu>.list-item>ul>li {
@@ -293,20 +260,20 @@ ul {
    display: inline-block;
    text-decoration: none;
    font-size: smaller;
-   color: #555555;
+   color: black;
    transition: color 0.3s ease;
 }
 
 .header .menu>ul>li .sub-menu {
    position: absolute;
    z-index: 500;
-   box-shadow: -2px 2px 70px -25px rgb(0, 0, 0, 0.3);
-   padding: 5px 5px;
    transition: all 0.5s ease;
-   margin-top: 25px;
+   margin-top: 45px;
    opacity: 0;
    visibility: hidden;
    left: 50%;
+   top: 60%;
+   width: 100%;
    
    transform: translateX(-50%);
 
@@ -362,8 +329,17 @@ ul {
    padding: 10px 0;
 }
 
-/* .header .menu > ul >li .sub-menu >ul >li >a:hover,{
-} */
+li>a:hover{
+   
+   color: black;
+   transition: all 0.3s ease;
+   text-transform: capitalize;
+   text-decoration: none;
+   font-weight: bold;
+   
+}
+
+
 
 
 /* <---------media----------> */

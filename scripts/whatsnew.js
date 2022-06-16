@@ -15,10 +15,13 @@ fetch(url)
 .then(function(res){
     
     console.log("res:",res)
+    
+    //return res
+    console.log(res[4].whatsnewpage)
     append(res[4].whatsnewpage)
-    append(res[0].whatsnew)
-    append(res[1].justin)
-    append(res[4].whatsnewpage)
+    // append(res[0].whatsnew)
+    // append(res[1].justin)
+    // append(res[4].whatsnewpage)
 
     
 
@@ -28,35 +31,42 @@ fetch(url)
     console.log("err:",err)
 })
 
-function sortingData(){
-    let sorts = document.querySelector("#sort").value;
-    console.log(sorts)
 
-    if(sorts=="htl")
+document.querySelector('#sort').addEventListener("change", sortingData);
+function sortingData(res){
+    let sort = document.querySelector("#sort").value;
+     console.log(sort)
+
+    if(sort=="htl")
     {
-        res[4].whatsnewpage.sort(function(a,b){
+        res.sort(function(a,b){
+            //console.log(a.price,b.price)
             return b.price - a.price;
+            
         })
         
-        append(res[4].whatsnewpage)
+        append(res)
     }
-    else if(sorts=="lth")
+    else if(sort=="lth")
     {
-        res[4].whatsnewpage.sort(function(a,b){
+        res.sort(function(a,b){
             return a.price - b.price;
+            
+
         })
-        append(res[4].whatsnewpage)
+        append(res)
     }
-    else if(sorts=="rating")
+    else if(sort=="rating")
     {
-        res[4].whatsnewpage.sort(function(a,b){
+        res.sort(function(a,b){
             return b.rating - a.rating;
+           
         })
         
-        append(res[4].whatsnewpage)
+        append(res)
     }
 }
-sortingData()
+
 
 let arr = JSON.parse(localStorage.getItem("cartcount")) || []
 let x = arr.length
@@ -96,9 +106,10 @@ data.forEach(function(el,index){
 }
 
 function detaildata(el){
-    let arr = []
+    // let arr = []
     arr.push(el)
     console.log(arr)
+   
     localStorage.setItem("cartcount", JSON.stringify(arr))
    
     window.location.href ="./detaildata.html"

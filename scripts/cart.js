@@ -48,17 +48,7 @@ if (cartProducts.length === 0)
     displayData(cartProducts);
 }
 
-// var total = cartProducts.reduce(function(sum,el){
-//     return sum + Number(el.price);
-// }, 0);
 
-
-// console.log(total);
-// // document.getElementById("finalTotal").innerText = `${total}`;
-// document.getElementById("total").innerText = `₹${total}`;
-
-
-// document.querySelector(".counter").innerText = `(${cartProducts.length})`;
 
 function displayData(cartProducts){
     cartProducts.map(function(el,index){
@@ -108,7 +98,7 @@ function removeProduct(el,index){
     window.location.reload()
 }
 
-localStorage.setItem("cartcount",JSON.stringify(cartProducts))
+//localStorage.setItem("cartcount",JSON.stringify(cartProducts))
 
 function shopWhatsnew(el,index){
     window.location.href = "./whatsnew.html"
