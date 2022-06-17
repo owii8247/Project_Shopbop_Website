@@ -43,6 +43,7 @@ function append(data) {
 
         let image = document.createElement("img")
         image.src = el.image
+        image.setAttribute("class","img")
 
         let title = document.createElement("p")
         title.innerHTML = el.title
@@ -71,6 +72,7 @@ function append1(data) {
 
         let image = document.createElement("img")
         image.src = el.image
+        image.setAttribute("class","img")
 
         let title = document.createElement("p")
         title.innerHTML = el.title
@@ -98,14 +100,14 @@ function append1(data) {
 
 let user = JSON.parse(localStorage.getItem("username"))
 
-console.log(user.name)
+console.log(user)
 
 if (user.name == undefined) {
-    document.getElementsById("profile").innerText = null
+    document.getElementsById("profile").innerHTML = null
 
 
 }
 else {
-    document.getElementsById("profile").innerText = `${user.name}`
+    document.getElementsById("profile").innerHTML = `${user.name}`
 
 }

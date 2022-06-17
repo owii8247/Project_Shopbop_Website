@@ -7,12 +7,16 @@ document.getElementById("footer").innerHTML = footer()
 
 
 let cartProducts = JSON.parse(localStorage.getItem("cartcount")) || []
+
+let wishlist = JSON.parse(localStorage.getItem("wishlistcount")) || []
 let x = cartProducts.length
 document.getElementById("count").innerText = `${x}`
 
 var total = cartProducts.reduce(function(sum,el){
     return sum + Number(el.price);
 }, 0);
+
+
 
 
 console.log(total);
@@ -28,10 +32,10 @@ if (cartProducts.length === 0)
     div.setAttribute("id","bagbox")
 
     let h1 = document.createElement("h3")
-    h1.innerText = "Your shoping bag is empty !"
+    h1.innerText = "Your wishlist is empty !"
 
     let p = document.createElement("p")
-    p.innerText = "And that means it's time to start shopping!"
+    p.innerText = "And that means it's time to start scrolling!"
 
     let shop = document.createElement("button")
     shop.innerText = "Shop What's New"
@@ -77,13 +81,20 @@ function displayData(cartProducts){
     rating.innerText =`Rating : ${el.rating}`
 
     let remove = document.createElement("button")
-    remove.innerText = "Edit & Remove"
+    remove.innerText = "Remove"
     remove.setAttribute("id","remove")
     remove.addEventListener("click",function(el,index){
         removeProduct(el,index)
     })
 
-    divtitle.append(title,desc,price,rating,remove)
+    let add = document.createElement("button")
+    add.innerText = "Add To Cart"
+    add.setAttribute("id","remove")
+    add.addEventListener("click",function(el,index){
+        addtocart(el,index)
+    })
+
+    divtitle.append(title,desc,price,rating,remove,add)
     div.append(image,divtitle)
     document.getElementById("showProduct").append(div)
 
@@ -98,7 +109,14 @@ function removeProduct(el,index){
     window.location.reload()
 }
 
-
+function addtocart(el,index){
+    
+    
+    window.location.href ="./cart.html"
+  
+    alert("Item Added To Cart !");
+}
+localStorage.setItem("wishlistcount",JSON.stringify(wishlist))
 
 function shopWhatsnew(el,index){
     window.location.href = "./whatsnew.html"

@@ -11,9 +11,10 @@
 }
 #hcontainer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(1,fr);
     grid-gap: 10px;
+    width: 20%;
 
 }
 #h1container{
@@ -26,3 +27,13 @@
 #mensnew{
     margin-left: 10%;
 }
+.img{
+    height: 80px;
+    width: 30px;
+}
+#box{
+    height: 300px;
+    width: 100px;
+
+}
+

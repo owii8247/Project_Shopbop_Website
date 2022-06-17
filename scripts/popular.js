@@ -15,18 +15,8 @@ fetch(url)
 .then(function(res){
     
     console.log("res:",res)
-    
-    //return res
-    //console.log(res[4].whatsnewpage)
+    append(res[1].justin)
 
-    let fetchsort = res[4].whatsnewpage
-    console.log("fetchsort:",fetchsort)
-    //append(res[4].whatsnewpage)
-    append(fetchsort)
-
-    // append(res[0].whatsnew)
-    // append(res[1].justin)
-    // append(res[4].whatsnewpage)
 
     
 
@@ -44,31 +34,31 @@ function sortingData(res){
 
     if(sort=="htl")
     {
-        fetchsort.sort(function(a,b){
+        res.sort(function(a,b){
             //console.log(a.price,b.price)
             return b.price - a.price;
             
         })
         
-        append(fetchsort)
+        append(res)
     }
     else if(sort=="lth")
     {
-        fetchsort.sort(function(a,b){
+        res.sort(function(a,b){
             return a.price - b.price;
             
 
         })
-        append(fetchsort)
+        append(res)
     }
     else if(sort=="rating")
     {
-        fetchsort.sort(function(a,b){
+        res.sort(function(a,b){
             return b.rating - a.rating;
            
         })
         
-        append(fetchsort)
+        append(res)
     }
 }
 
@@ -89,7 +79,6 @@ data.forEach(function(el,index){
 
     let image = document.createElement("img")
     image.src = el.image
-    
 
     let title = document.createElement("p")
     title.innerHTML = el.title

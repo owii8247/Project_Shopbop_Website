@@ -87,5 +87,5 @@ function addtowishlist(el,index){
     arr.push(el,index)
     localStorage.setItem("wishlist", JSON.stringify(arr))
     window.location.href ="./wishlist.html"
-    // window.location.reload()
+    
 }

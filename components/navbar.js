@@ -26,6 +26,7 @@ function topnav() {
       </div>
     
       <a id="wishlist" href="./wishlist.html"><i class="fa-regular fa-heart"></i></a>
+      <div id="wishlistcount"></div>
       <a id="cart" href="./cart.html"> <i class="fa-solid fa-bag-shopping"></i></a>
       <div id="count"></div>
 
@@ -96,10 +97,10 @@ function navbar() {
                             </div>
                         </div>
                     </li>
-                    <li class="menu-item"><a href="#">OUR FAVORITES</a>
+                    <li class="menu-item"><a href="./popular.html">OUR FAVORITES</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
-                                <h7 class="title">OUR FAVORITES</h7>
+                                <h7 class="title">OUR FAVOURITES</h7>
                                 <ul>
                                     <li><a href="#">Asian & Pacific Islander Designers & Owned Brands</a></li>
                                     <li><a href="#">Black Designers & Black-Owned Brands</a></li>
@@ -162,7 +163,7 @@ function navbar() {
                                 </ul>
                             </div>
                     </li>
-                    <li class="menu-item"><a href="#">DESIGNERS</a>
+                    <li class="menu-item"><a href="./popular.html">DESIGNERS</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">DESIGNERS</h7>
@@ -237,7 +238,7 @@ function navbar() {
                                 </ul>
                             </div>
                     </li>
-                    <li class="menu-item"><a href="#">CLOTHING</a>
+                    <li class="menu-item"><a href="./whatsnew.html">CLOTHING</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">CLOTHING</h7>
@@ -318,7 +319,7 @@ function navbar() {
                             </div>
                     </li>
 
-                    <li class="menu-item"><a href="#">ACTIVE</a>
+                    <li class="menu-item"><a href="./whatsnew.html">ACTIVE</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">CLOTHING</h7>
@@ -390,7 +391,7 @@ function navbar() {
 
 
                     </li>
-                    <li class="menu-item"><a href="#">SHOES</a>
+                    <li class="menu-item"><a href="./popular.html">SHOES</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">SHOES</h7>
@@ -461,7 +462,7 @@ function navbar() {
                             </div>
 
                     </li>
-                    <li class="menu-item"><a href="#">BAGS</a>
+                    <li class="menu-item"><a href="./popular.html">BAGS</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">BAGS</h7>
@@ -539,7 +540,7 @@ function navbar() {
 
                     </li>
 
-                    <li class="menu-item"><a href="#">ACCESSORIES</a>
+                    <li class="menu-item"><a href="./whatsnew.html">ACCESSORIES</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">ACCESSORIES</h7>
@@ -613,7 +614,7 @@ function navbar() {
                             </div>
 
                     </li>
-                    <li class="menu-item"><a href="#">MEN</a>
+                    <li class="menu-item"><a href="./whatsnew.html">MEN</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">MEN</h7>
@@ -664,7 +665,7 @@ function navbar() {
 
 
                     </li>
-                    <li class="menu-item"><a href="#">SALE</a>
+                    <li class="menu-item"><a href="./popular.html">SALE</a>
                         <div class="sub-menu single-col">
                             <div class="list-item">
                                 <h7 class="title">SALE</h7>
