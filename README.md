@@ -1,11 +1,11 @@
 # Project_Shopbop_Website
 
-Tech Stack Used:
+##Tech Stack Used:
 
-HTML
-CSS
-JavaScript
-Backend Data(Mock Server Api Fetch)
+--HTML
+--CSS
+--JavaScript
+--Backend Data(Mock Server Api Fetch)
 
 Landing Page
 
