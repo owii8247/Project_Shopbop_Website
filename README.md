@@ -1,11 +1,13 @@
 # Project_Shopbop_Website
 
-Tech Stack Used:
+Tech Stack Used
 
 --HTML
 --CSS
 --JavaScript
 --Backend Data(Mock Server Api Fetch)
+
+Netlify Deploy Link : https://cheerful-smakager-7369c5.netlify.app
 
 Landing Page
 
