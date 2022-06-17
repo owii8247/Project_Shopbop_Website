@@ -7,6 +7,7 @@ let login=async()=>{
    user_data=JSON.stringify(user_data)
    let res=await fetch("https://masai-api-mocker.herokuapp.com/auth/login",{
        method:"POST",
+       mode:"no-cors",
        body:user_data,
        headers:{
            "Content-Type":"application/json",
